@@ -13,7 +13,7 @@
 	<header class="academyHeader">
 		
 			<img src="img/logo-dell-1.png" height="140px">
-			<h3>Programa IT Academy - Processo Seletivo - Edição #15</h3>
+			<h3>Programa IT Academy - Processo Seletivo - Ediï¿½ï¿½o #15</h3>
 			<span style="color: blue">Bolsas de Estudo do Brasil</span>
 		
 	</header>
@@ -31,7 +31,7 @@
 				<input id="academyButton" type="submit" name="salvar" value="Consultar">
 			</div>
 			<div>
-				<label><strong>Consulta média anual:</strong></label><input type="text"
+				<label><strong>Consulta mï¿½dia anual:</strong></label><input type="text"
 					name="consulta media anual">
 				<input id="academyButton" type="submit" name="salvar" value="Consultar">
 			</div>

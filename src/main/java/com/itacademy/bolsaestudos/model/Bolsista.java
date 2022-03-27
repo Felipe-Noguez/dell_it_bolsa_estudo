@@ -18,38 +18,38 @@ public class Bolsista {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    @Column(name = "nmBolsista", length = 90, nullable = false)
+    @Column(name = "nm_bolsista", length = 90, nullable = false)
     private String name;
     
-    @Column(name = "cpfBolsista", length = 18, nullable = false)
+    @Column(name = "cpf_bolsista", length = 18, nullable = false)
     private String cpf;
 
-    @Column(name = "nmEntidadeEnsino", length = 150, nullable = false)
+    @Column(name = "nm_entidade_ensino", length = 150, nullable = false)
     private String entidadeEnsino;
 
-    @Column(name = "meReferencia", length = 2)
+    @Column(name = "me_referencia", length = 2)
     private String meReferencia;
 
-    @Column(name = "anReferencia", length = 4)
-    private int anoReferencia;
+    @Column(name = "an_referencia", length = 4)
+    private Integer anoReferencia;
 
-    @Column(name = "sgDiretoria", length = 6)
+    @Column(name = "sg_diretoria", length = 6)
     private String diretoria;
 
-    @Column(name = "sgSistemaOrigem", length = 5)
+    @Column(name = "sg_sistema_origem", length = 5)
     private String sistemaOrigem;
 
-    @Column(name = "cdModalidadeSgb", length = 5)
-    private int modalidadeSgb;
+    @Column(name = "cd_modalidade_sgb", length = 5)
+    private Integer modalidadeSgb;
 
-    @Column(name = "dsModalidadePagamento", length = 40)
+    @Column(name = "ds_modalidade_pagamento", length = 40)
     private String modalidadePagamento;
 
-    @Column(name = "cdMoeda", length = 4)
+    @Column(name = "cd_moeda", length = 4)
     private String moeda;
 
-    @Column(name = "vlBolsistaPagamento", length = 8)
-    private int valorBolsistaPagamento;
+    @Column(name = "vl_bolsista_pagamento", length = 8)
+    private Integer valorBolsistaPagamento;
 
     public Integer getId() {
         return id;
